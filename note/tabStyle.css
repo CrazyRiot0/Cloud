@@ -1,0 +1,20 @@
+.tab_menu_container {
+	display: flex;
+}
+.tab_menu {
+	background: none;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	width: 80px;
+	height: 40px;
+	transition: 0.3s all;
+}
+.tab_menu.on {
+	border-bottom: 2px solid #df0000;
+	font-weight: 700;
+	color: #df0000;
+}
+.tab_menu: hover {
+	color: #df0000;
+}
